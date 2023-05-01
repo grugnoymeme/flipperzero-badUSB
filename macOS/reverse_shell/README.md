@@ -9,7 +9,7 @@
  
 
 ### Usage
-1. Power on your Flipper Zero, and navigate to BadUSB/macos_reverse_shell and click on it.
+1. Power on your Flipper Zero, and navigate to BadUSB/macos_reverse_shell (or qhere you uploaded the payload) and click on it.
 2. On the ATTACKING machine open a new terminal and digit `nc -nlvp 4444`(change 4444 if you need to listen on another PORT).
 3. Connects the Flipper to the TARGET machine, and Click "Run" on the device.
 4. Wait until on your Flipper you are reading 100%.
