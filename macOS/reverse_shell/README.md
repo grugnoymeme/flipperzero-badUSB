@@ -13,3 +13,6 @@
 3. Connects the Flipper to the TARGET machine, and Click "Run" on the device.
 4. Wait until on your Flipper you are reading 100%.
 5. Disconnects Flipper Zero.
+
+### Disclaimer
+Please note that this payload is for educational purposes only and should not be used for illegal activities.
