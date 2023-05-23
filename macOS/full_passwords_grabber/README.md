@@ -15,6 +15,7 @@ PRE: Lets extract the Login password of the current user, using the @birkhoffche
 5. Then let's creates a .zip archive `login.zip` of the file `login.keychain`.
 6. Ok. Now we can send the zipped file to our mail (in this case `example@example.com`).
 7. At the end, we close the terminal, and the trick is done.
+8. Now with another macOS you need to import the file after unzipped it, in `Keychain Access` and then unlock it with the credentials you recived via mail.
 
 ### Usage
 Replace in `keychain_grabber.txt` example@example.com with the mail you want to use to recive the logs.
