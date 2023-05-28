@@ -10,7 +10,7 @@ Using <strong><ins>@birkhoffcheng's</ins></strong> `sudo_password_grabber` you w
 
 1. First of all with the ID 05ac:021e Apple:Keyboard line, we are telling to the computer that our Flipper is a "real Apple keyboard" to avoid macOS is displaying the "Keyboard Setup Assistant" dialog and your script is going fuck itself.
 2. Press the GUI key and the SPACE key to open the Spotlight search on macOS. Now we type "terminal" to search for the terminal application and press ENTER to open it.
-3. We string ` unset HISTFILE`to avoid that all te following operations will be stored in the shell history, till the end of the session.
+3. We string `unset HISTFILE` to avoid that all te following operations will be stored in the shell history, till the end of the session.
 4. Now we navigate to the `~/Library/Keychains/` directory.
 5. Then let's creates a .zip archive `login.zip` of the file `login.keychain`.
 6. Ok. Now we can send the zipped file to our mail (in this case `example@example.com`).
