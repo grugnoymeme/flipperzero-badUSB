@@ -15,7 +15,7 @@ Here is a macOS/linux payload that will run a keylogger in the background using 
 
 ### Usage
 Replace in `keylogger.txt` example@example.com with the mail you want to use to recive the logs.
-Power on your Flipper Zero, and navigate to BadUSB/keylogger (or qhere you uploaded the payload) and click on it.
+Power on your Flipper Zero, and navigate to badusb/keylogger (or where you uploaded the payload) and click on it.
 Wait until on your Flipper you are reading 100%.
 Disconnects Flipper Zero.
 
