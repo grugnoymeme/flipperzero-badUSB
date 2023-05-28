@@ -1,6 +1,7 @@
 REM Author: 47LeCoste
 REM Version 1.0 (Flipper Ducky)
-TARGET: macOS
+REM Target: macOS
+ID 05ac:021e Apple:Keyboard
 DELAY 5000
 GUI SPACE
 DELAY 500
