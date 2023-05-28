@@ -20,5 +20,5 @@ Wait until on your Flipper you are reading 100%.
 Disconnects Flipper Zero.
 
 
-### Disclaimer
-Please note that this payload is for educational purposes only and should not be used for illegal activities.
+> ### Disclaimer
+>> Please note that this payload is for educational purposes only and should not be used for illegal activities.
