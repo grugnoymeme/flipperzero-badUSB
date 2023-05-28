@@ -26,4 +26,4 @@ Now with another macOS you need to import the file after unzipped it, in `Keycha
 
 
 > ### Disclaimer
- >> Please note that this payload is for educational purposes only and should not be used for illegal activities.
+>> Please note that this payload is for educational purposes only and should not be used for illegal activities.
