@@ -3,7 +3,7 @@
 ### Instructions
 1. First of all with the `ID 05ac:021e Apple:Keyboard` line, we are telling to the computer that our Flipper is a "real Apple keyboard" to avoid macOS is displaying the "Keyboard Setup Assistant" dialog and your script is going fuck itself. 
 2. Second we need to say "Hey Spotlight, may you please open the terminal.app, i have only good intentions", same like boys saying "not gonna hurt, trust me..." before anal sex.
-3. The 11th line is where the magic happens: we use the screen utility to make a permanent script, we set bash as interpreter, cauze macOS is using zsh as default one (don't worry if u have a macOS, you have bash installed for sure), we say to it to execute the command (the one after the "echo") and then to  detach the screen session, executing the command in background, EVEN if we'll quit the terminal.app. (Obviously we have to replace the IP address (127.0.0.1) and the PORT (4444), with those of the ATTACKING machine). After all delete the recent last .bash_history.
+3. The 11th line is where the magic happens: we use the screen utility to make a permanent session, we set bash as interpreter, cauze macOS is using zsh as default one (don't worry if u have a macOS, you have bash installed for sure), we say to it to execute the command (the one after the "echo") and then to  detach the screen session, executing the command in background, EVEN if we'll quit the terminal.app. (Obviously we have to replace the IP address (127.0.0.1) and the PORT (4444), with those of the ATTACKING machine). After all delete the recent last .bash_history.
 4. Exit the terminal.
 5. After 12-15 sec. you can safely unplug the Flipper Zero being sure that the reverse shell is executing...
  
