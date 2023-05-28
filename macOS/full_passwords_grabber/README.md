@@ -5,9 +5,9 @@ Using <strong><ins>@birkhoffcheng's</ins></strong> `sudo_password_grabber` you w
 
 
 ### Instructions
-```
-PRE: Lets extract the Login password of the current user, using the @birkhoffcheng's sudo_password_grabber payload that you can find into this repo.
-```
+
+> PRE: Lets extract the Login password of the current user, using the @birkhoffcheng's sudo_password_grabber payload that you can find into this repo.
+
 1. First of all with the ID 05ac:021e Apple:Keyboard line, we are telling to the computer that our Flipper is a "real Apple keyboard" to avoid macOS is displaying the "Keyboard Setup Assistant" dialog and your script is going fuck itself.
 2. Press the GUI key and the SPACE key to open the Spotlight search on macOS. Now we type "terminal" to search for the terminal application and press ENTER to open it.
 3. We string ` unset HISTFILE`to avoid that all te following operations will be stored in the shell history, till the end of the session.
@@ -25,5 +25,5 @@ Disconnects Flipper Zero.
 Now with another macOS you need to import the file after unzipped it, in `Keychain Access` and then unlock it with the credentials you recived via mail.
 
 
-### Disclaimer
-Please note that this payload is for educational purposes only and should not be used for illegal activities.
+> ### Disclaimer
+ >> Please note that this payload is for educational purposes only and should not be used for illegal activities.
