@@ -19,10 +19,10 @@ Using <strong><ins>@birkhoffcheng's</ins></strong> `sudo_password_grabber` you w
 ### Usage
 FIRST OF ALL DO THE "PRE" ACTION USCING THE OTHER BAD USB ATTACK SUBMODULED IN THIS REPO.   
 Replace in `keychain_grabber.txt` example@example.com with the mail you want to use to recive the logs.
-Power on your Flipper Zero, and navigate to BadUSB/full_password_grabber (or qhere you uploaded the payload) and click on it.
+Power on your Flipper Zero, and navigate to badusb/full_password_grabber (or where you uploaded the payload) and click on it.
 Wait until on your Flipper you are reading 100%.
 Disconnects Flipper Zero.  
-Now with another macOS you need to import the file after unzipped it, in `Keychain Access` and then unlock it with the credentials you recived via mail.
+Now with another macOS you need to import the file after unzipped it, in `Keychain Access` and then unlock it with the credentials you recieved via mail.
 
 
 > ### Disclaimer
