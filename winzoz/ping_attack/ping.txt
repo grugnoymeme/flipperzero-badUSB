@@ -8,5 +8,5 @@ STRING "cmd"
 DELAY 1000
 ENTER
 DELAY 2000
-STRING "ping -l 65500 -w 1 www.example.com"
+STRING "start /min ping -l 65500 -w 1 www.example.com"
 ENTER
