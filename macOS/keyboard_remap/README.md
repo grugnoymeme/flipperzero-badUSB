@@ -1,3 +1,5 @@
+**`To Fix Reboot system or create a file to remap to the original scheme`**
+
 Usage | ID (Hex)
 :---|:---
 Keyboard a and A | 0x04
@@ -27,7 +29,7 @@ Keypad . and Delete | 0x63
 Keyboard g and G | 0x0A
 Keyboard Return (Enter) | 0x28
 Keyboard Print Screen | 0x46
-Keyboard Non-US \ and | | 0x64
+Keyboard Non-US \ and \| | 0x64
 Keyboard h and H | 0x0B
 Keyboard Escape | 0x29
 Keyboard Scroll Lock | 0x47
@@ -61,7 +63,7 @@ Keyboard ] and } | 0x30
 Keyboard Page Down | 0x4E
 Keyboard F17 | 0x6C
 Keyboard p and P | 0x13
-Keyboard \ and | | 0x31
+Keyboard \ and \| | 0x31
 Keyboard Right Arrow | 0x4F
 Keyboard F18 | 0x6D
 Keyboard q and Q | 0x14
