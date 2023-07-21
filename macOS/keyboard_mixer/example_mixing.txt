@@ -9,7 +9,7 @@ STRING Terminal.app
 DELAY 200
 ENTER
 DELAY 1000
-STRING hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc": 0x700000004,"HIDKeyboardModifierMappingDst": 0x700000016},{"HIDKeyboardModifierMappingSrc": 0x700000016,"HIDKeyboardModifierMappingDst": 0x700000004}]}'
+STRING hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc": 0x700000004,"HIDKeyboardModifierMappingDst": 0x700000022},{"HIDKeyboardModifierMappingSrc": 0x700000040,"HIDKeyboardModifierMappingDst": 0x700000005},{"HIDKeyboardModifierMappingSrc": 0x700000023,"HIDKeyboardModifierMappingDst": 0x700000006},{"HIDKeyboardModifierMappingSrc": 0x700000024,"HIDKeyboardModifierMappingDst": 0x700000007},{"HIDKeyboardModifierMappingSrc": 0x700000025,"HIDKeyboardModifierMappingDst": 0x700000008},{"HIDKeyboardModifierMappingSrc": 0x700000026,"HIDKeyboardModifierMappingDst": 0x700000009},{"HIDKeyboardModifierMappingSrc": 0x700000027,"HIDKeyboardModifierMappingDst": 0x700000010}]}'
 DELAY 5500
 ENTER
 DELAY 1000
