@@ -1,4 +1,8 @@
-**`To Fix Reboot system or create a file to remap to the original scheme`**
+```
+• You can remap as many key as you want.   
+• Remapping keyboard you will also change the modality to execute some keyboard commands, for example GUI q, if you'll use it to close some window, and you have remapped the "q-Q" key, closing will not work, unless you'll use the new "q-Q" key position.   
+• To Fix Reboot system or create a file to remap to the original scheme.
+```
 
 Usage | ID (Hex)
 :---|:---
