@@ -16,7 +16,7 @@ STRING sudo nano /etc/proxychains.conf
 DELAY 500
 ENTER
 DELAY 15000
-REM “ENTER YOUR PASSWORD HERE, EVEN IT SEEMS YOU’RE WRITING ANYTHING, THEN CLICK ENTER, AND WAIT TO THE SCRIPT CONTINUE”
+REM Now, immediately, enter your password, even it seems you're typing anytihing. Then click ENTER and wait the script continue.
 CTRL w
 DELAY 500
 STRING dynamic_chain
@@ -42,7 +42,7 @@ DELAY 1000
 DOWNARROW
 DELAY 200
 
-REM if u use TOR remove this and the following 4 lines
+REM If you are using TOR remove this and the following 4 lines
 ALTCODE #
 DELAY 200
 SPACE
@@ -62,7 +62,7 @@ DELAY 200
 SPACE
 DELAY 500
 
-REM Now you can OPTIONALLY repeat the following 22 lines how many times you want, but in my opinion one is good, 4 proxychains is almost UNDETECTABLE 100%, more could be useless (and you'll have to modify the number of the DOWNARROW REPEAT cause it will grow up over 69 times)
+REM Now you can OPTIONALLY repeat the following 22 lines how many times you want, in my opinion 1 is pretty enought, 4 proxychains is almost UNDETECTABLE 100%, more could be useless (and you'll have to modify the number of the `DOWNARROW REPEAT` cause it will grow up over 69 times).
 STRING proxies=($(grep -oP "(?<=<font class=\"spy14\">)[^<]+" spys.html)) | proxy_types=($(grep -oP "(?<=<font class=\"spy1\">)[^<]+" spys.html))
 DELAY 1000
 STRING random_index=$((RANDOM % ${#proxies[@]}))
@@ -96,7 +96,8 @@ DELAY 500
 STRING clear
 STRING proxychains firefox google.com          // Change firefox with the browser you want to use and google.com with the site you want to visit
 
-REM At the end, remove the server list you saved, cause the next time you'll use this script you'll need to download a ne one. Delete also the history of the current bash session to not leave any trace of this
+REM At the end, remove the server list you saved, cause the next time you'll use this script you'll need to download a ne one. 
+REM Delete also the history of the current bash session to not leave any trace.
 STRING rm spys.html
 DELAY 1000
 STRING history -c
