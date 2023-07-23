@@ -1,4 +1,7 @@
-ID 05ac:021e Apple:Keyboard     // This line must be first IF (and only if), it is the first time ever that a bad-usb (or bad-bluetooth) attack has been launched on THIS specific macOS with THIS specific FlipperZero, as it serves to identify it as an original Apple keyboard. The following times (or if Flipper Zero has already been identified by this macOS) this line will be deleted before executing the attack.
+ID 05ac:021e Apple:Keyboard
+REM Keep these 3 lines IF (and only if) it's the first time you are performing a badKB attack against a specific macOS target. 
+REM In fact, it helps Flipper Zero bypass the macOS keyboard setup assistant. Otherwise the attack will not start.
+
 REM Author: 47LeCoste
 REM Version 1.0 (Flipper Ducky)
 DELAY 5000
